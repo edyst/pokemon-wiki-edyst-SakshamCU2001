@@ -1,0 +1,1414 @@
+*{
+    margin:0px;
+    font-size:16px;
+box-sizing: border-box;
+font-family: Avenir-Next,Roboto,sans-serif;
+
+}
+
+
+.logo{
+      width:80px;
+      margin:12px;}
+.flag{
+width:20px;
+
+margin-right:0px;
+margin-top:0px;
+
+
+}
+
+.grid{
+    max-width:100%;
+    display:grid;
+    grid-template-columns: 20fr 60fr;
+}
+.grid ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    color:#7f8c8d;
+   margin-top:20px;
+    }
+#button1{
+    width:95px;
+    height:20px;
+    background-color:orange;
+    color:white;
+    border:none;
+}
+a{
+    text-decoration:none;
+    color:#7f8c8d;
+}
+
+
+
+
+
+  .container {
+    width:100%;
+    height: 500px;
+    position:absolute;
+    top:50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 6px;
+margin-top:30px;
+ margin-bottom:10px;
+ 
+  }
+  
+  .container img {
+    width:100%;
+    height:500px;
+    border-radius: 2px;
+   
+  }
+  
+  .container .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 0%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 2px;
+    background:#000000b3;
+ 
+    
+  }
+  
+  .container .overlay {
+    width: 100%;
+  }
+  .main_heading{
+      font-size:90px;
+      margin-top:0px;
+      margin-bottom:0px;
+      color:white;
+      padding-left:60px;
+  }
+  .sub_heading{
+      font-size:33px;
+      color:white;
+      margin-top:0px;
+      padding-left:60px;
+  }
+  .btn1{
+      background-color:#4992ca;
+      width:250px;
+      color:white;
+      height:40px;
+      text-align:center;
+      border:none;
+      margin:8px;
+    
+
+  }
+  .btn2{
+      background-color:#0000;
+      width:250px;
+      color: #fff;
+      border:2px solid #fff;
+      height:40px;
+      border-radius:2px;
+      margin:8px;
+      
+      text-align:center;
+    
+
+  }
+  .btn3{
+      padding:10px;
+      background:white;
+      color:black;
+      border-radius:15px;
+    
+  }
+.btn{
+    margin-left:60px;
+}
+.flex_1{
+    display:flex;
+
+    justify-content:space-between;
+    align-items: center;
+    margin-top:40px;
+
+}
+.center{
+    margin-top:30px;
+}
+.center h2{
+    font-size:45px;
+    
+    
+   
+
+}
+.flex_1 h4{
+    font-size:30px;
+    margin:8px;
+}
+.container2{
+    
+    text-align:center;
+    padding:10px;
+    background-color:#4992ca;
+    color:white;
+    padding-left:50px;
+    padding-right:50px;
+    margin-top:470px;
+    height:490px;
+ 
+
+}
+.container2 i{
+    font-size:3em;
+    margin:4px;
+    padding:8px;
+}
+.container3{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    padding-left:40px;
+}
+.flex_3 h4{
+    font-size:30px;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:30px;
+
+}
+.container3 h2{
+    text-align: center;
+    margin-top:20px;
+    font-size:45px;
+  
+}
+.flex_3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.cont img{
+ padding-left:120px;
+}
+.cont{
+    padding-right:30px;
+    
+}
+.pokemonsub{
+    padding-left:60px;
+    padding-right:60px;
+}
+.container4 h2{
+    text-align: center;
+    font-size:45px;
+    margin-top:40px;
+}
+.pokemon{
+   display:flex;
+justify-content:space-around;
+align-items: center;
+font-family: Avenir-Next,Roboto,sans-serif;
+font-weight: 100;
+color:#7f8c8d;
+margin-bottom:15px;
+
+
+padding-left:80px;
+padding-right:80px;
+}
+.pokemon img{
+    width:150px;
+}
+.pokemonsub h4{
+    font-size:30px;
+}
+.pokemonsub h6{
+    font-size:18px;
+}
+.container5{
+    
+    padding-left:70px;
+    padding-right:70px;
+    background-color:#4992ca;
+    color:#fff;
+    height:450px;
+}
+.font{
+    font-weight: lighter;
+}
+.container5 h2{
+    text-align:center;
+    font-size:45px;
+    margin-top:20px;
+    margin-bottom:30px;
+    padding-top:20px;
+}
+.container5 ul{
+    padding-left:70px;
+}
+.container5 h4{
+    padding:8px;
+}
+.container5 li{
+    font-size:15px;
+    padding:4px;
+}
+.full{
+    display:flex;
+ justify-content: space-between;
+
+   padding-left:50px;
+   padding-right:50px;
+   padding-top:40px;
+}
+.first{
+    flex:1;
+}
+.second{
+    flex:2;
+}
+.container6 h2{
+    text-align:center;
+    
+    font-size:45px;
+}
+.container6{
+    padding-top:40px;
+}
+.container6 h4{
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+}
+.first p{
+    margin-bottom:35px;
+}
+.first .grey{
+    margin-bottom:35px;
+    color:#8a8a8a;
+    }
+
+.second table,td,th{
+    border:1px solid rgb(196, 195, 195);
+    padding:8px;
+    
+}
+.second table tr td{
+    color:#8a8a8a;
+  
+}
+.second table{
+    
+    border-collapse:collapse;
+    margin-left:40px;
+}
+.second p{
+    margin-top:10px;
+    padding-left:40px;
+}
+.third{
+    text-align:center;
+    margin:30px;
+}
+.third a{
+    color:#4992ca;
+    text-decoration: none;
+    font-size:20px;
+    
+}
+.third button{
+    color:#fff;
+    background-color:#4992ca;
+    height:40px;
+    width:200px;
+    border:none;
+    margin-top:40px;
+}
+.container7{
+    margin-top:0px;
+    text-align:center;
+    background-color:#424242;
+    color:white;
+    height:200px;
+}
+.container7 h2{
+    font-size:45px;
+    margin-bottom:40px;
+    padding-top:40px;
+   
+   
+}
+.container7 button{
+ 
+    color:white;
+    background:transparent;
+    height:40px;
+    width:200px;
+    margin-bottom:20px;
+    border:2px solid white;
+    border-radius:2px;
+    background-color:#0000;
+   
+}
+.pokemon-card .card{
+    max-width: 20%;
+    margin: auto;
+    margin-top: 0;
+   
+    height:300px;
+  
+}
+.pokemon-card .card-upper{
+    border-top: 20px solid #4992ca;
+    background-color: rgb(230, 230, 230);
+    padding: 6%;
+    font-size: 1.5em;
+    
+}
+.card-upper h4{
+    color:grey;
+}
+.pokemon-card .card-upper p{
+    margin: 0;
+    
+}
+.card-footer{
+    border:1px solid rgb(211, 211, 211);
+    padding:14px;
+
+}
+.container8{
+    background-color:#4992ca;
+    color:white;
+    height:850px;
+    padding-left:40px;
+    padding-right:40px;
+   
+}
+.container8 .hlo{
+    font-weight:100;
+color:white;
+}
+.container8 h2{
+    margin:40px;
+    text-align:center;
+    font-size:45px;
+}
+.pokemonsub h4{
+    font-size:30px;
+}
+.pokemonsub h6{
+font-size:18px;
+}
+.gen-cards .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.gen-cards .card{
+    max-width: 30%;
+}
+.gen-cards .right-margin{
+    margin-right: 1%;
+}
+.gen-cards .card-head{
+    border-top: 20px solid #4992ca;
+    background-color: rgb(230, 230, 230);
+}
+.card-body,.card-head{
+    padding:8px;
+}
+.gen-cards h2{
+    font-size:45px;
+    text-align:center;
+    color:#7f8c8d;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+.container10{
+    text-align:center;
+    padding-bottom:30px;
+    padding-top:20px;
+    background-color:rgba(0, 0, 0, 0.733);
+    color:#fff;
+    height:190px;
+
+}
+
+.container10 h2{
+    font-size:45px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.container10 input{
+    padding:8px;
+    height:40px;
+    width:300px;
+    font-size:15px;
+    
+}
+.container10 button{
+    height:40px;
+    width:200px;
+    color:#fff;
+    border:2px solid #fff;
+    border-radius:2px;
+    background-color:#0000;
+
+}
+.gamesub{
+    display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    padding:40px;
+}
+.container11 h2{
+    text-align:center;
+    margin-top:20px;
+    font-size:45px;
+    margin-bottom:0px;
+}
+.gamesub{
+    text-align:center;
+}
+.gamesub_sub p{
+    padding-bottom:15px;
+    padding-top:10px;
+
+
+}
+.container11{
+    height:600px;
+}
+.gamesub_sub i{
+    font-size:15px;
+}
+
+.gamesub_sub{
+    text-align:center;
+}
+
+.games button{
+margin-left:34em;
+padding:4px;
+height:40px;
+width:200px;
+color:white;
+background-color:#4992ca;
+border:none;
+
+}
+.designer
+{display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.container12 h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom:40px;
+
+}
+.container12{
+    background-color:#4992ca;
+    color:white;
+    height:500px;
+}
+.producers{
+    text-align: center;
+    padding:8px;
+}
+.producers p{
+    padding:4px;
+}
+.producers img{
+    border-radius:50%;
+  
+}
+.container13{
+    text-align:center;
+
+}
+.container13 h2{
+   font-size:45px;
+   margin-bottom:20px;
+
+}
+.container13 h4{
+    font-size:20px;
+    margin-bottom:20px;
+ 
+ }
+ .logoos{
+     display:flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     padding-right:10%;
+     margin-bottom:20px;
+ }
+ .logoos img{
+     margin-left:120px;
+     padding:4px;
+ }
+ .container14 {
+     text-align:center;
+     background-color:#4992ca;;
+     color:white;
+     height:150px;
+ }
+ .container14 h2 {
+    font-size:45px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.container14 button{
+    width:200px;
+    height:40px;
+    background:transparent;
+    border:1px solid white;
+    color:white;
+    margin-top:20px;
+}
+
+.container15{
+    background-color:rgb(0, 4, 29);
+    height:180px;
+}
+.footer_flex{
+    display:flex;
+ justify-content: space-around;
+
+}
+.footer_flex h4{
+    margin-top:20px;
+    color:#7f8c8d;
+}
+.footer p a{
+    color:white;
+    
+}
+.footer p{
+    padding-top:8px;
+    color:white;
+}
+.footer a{
+    color:white;
+}
+.face{
+    display:flex;
+    justify-content: space-between;
+    padding-top:4px;
+
+}
+.footer h4{
+    margin-top:20px;
+    margin-bottom:6px;
+}
+.spc{
+    margin-top:6px;
+    color:#7f8c8d;
+    font-size:15px;
+    
+}
+.face i{
+    margin-top:6px;
+}
+@media(max-width:1130px){
+    *{
+        max-width: 100%;
+    }
+    
+    }
+    @media(max-width:1200px)
+    {
+        .grid{
+    margin-top:6px;
+        }
+        .grid ul li{
+            padding:2px;
+        }
+     .container{
+         margin-top:0px;
+        height:38em;
+        
+       }
+     .container .overlay{
+         height:500px;
+         margin-left:0px;
+     }
+        .main_heading{
+        
+            padding-left:30px;
+            padding-bottom:4px;
+        }
+        .sub_heading{
+            margin-bottom:20px;
+    
+    padding-left:40px;
+        }
+        .btn{
+            margin-left:40px;
+        }
+        .center h2{
+            margin-bottom:20px;
+        }
+        .flex_1 div{
+            padding:10px;
+        }
+       .container2{
+           height:540px;
+       }
+       .container3 h2{
+           margin-bottom:20px;
+    
+       }
+       .cont img{
+           padding-left:40px;
+       }
+       .cont p{
+           padding:4px;
+       }
+       .container4{
+           margin-top:20px;
+       }
+    
+       .container8{
+           height:900px;
+           
+       }
+       
+       .pokemon{
+           display:grid;
+           grid-template-columns:1fr 2fr 4fr;
+           padding:4px;
+           text-align: center;
+       }
+       .pokemon h4{
+           font-size:30px;
+       }
+       .pokemon h6{
+           font-size:20px;
+       }
+       .games button{
+           margin-left:40%;
+       }
+       .logoos{
+         padding-right:10em;
+       }
+       .grid li button{
+           height:50px;
+       }
+    }
+    @media(max-width:1120px)
+    
+    {
+        .logoos{
+            padding-right:10%;
+    
+        }
+        .container12{
+            height:520px;
+        }
+    
+    }
+    
+    @media(max-width:1066px){
+        .logoos img{
+        
+         margin-left:10%;
+        position:relative;
+        right:10px;
+        }
+        .container10{
+            height:250px;
+        }
+        .container10 input,button{
+            margin-bottom:4em;
+        }
+        .producers{
+            padding:4px;
+           
+        }
+        .nav{
+            height:80px;
+        }
+        .container { margin-bottom: 0px;height:600px;
+        }
+        .container2{
+          margin-top:440px;
+        }
+       
+    }
+    @media(max-width:1019px)
+    {
+      .container{
+        height:550px
+      }
+     
+      
+    }
+    @media(max-width:972px){
+        .container .overlay{
+          overflow:auto;
+        }
+        
+      
+      }
+      @media(max-width:952px)
+      {
+        .logoos img{
+          margin-left:60px;
+          padding-left:40px
+        }
+        .container12{
+          height:550px;
+        }
+      }
+      @media(max-width:1036px)
+     {
+       .container2{
+         height:600px;
+       }
+     }
+     @media(max-width:912px)
+     {
+       .container8{
+         height:60em;
+       }
+       .container2{
+         height:40em;
+       }
+     }
+    
+
+
+
+
+
+
+
+ @media(max-width:1025px){
+    .container{
+      height:75em;
+    }
+    .container5{
+      height:30em;
+    }
+ 
+  }
+  @media(max-width:769px)
+  {
+    .container{
+      height:55em;
+    }
+    .container2{
+      height:45em;
+    }
+    .container4{
+      padding:10px;
+    }
+    .container5{
+      height:35em;
+    }
+    .container7{
+      height:15em;
+    }
+    .container8{
+      height:65em;
+    }
+    .container12{
+      height:40em;
+    }
+    .logoos img{
+      margin-left:0px;
+      position:relative;
+      left:2em;
+    }
+  }
+  @media(max-width:541px)
+  {
+    .container{
+      height:35em;
+    }
+    .grid .logo{
+      height:30px;
+     
+    
+    }
+    .container2{
+      height:60em;
+    }
+    .container3{
+      margin-right:8px;
+      padding-right:10px;
+    }
+    .container4 .pokemon img{
+
+height:6em;
+    }
+    .pokemonsub img {
+     padding:10px;
+
+    }
+   .pokemonsub{
+     padding:0px;
+   }
+   .container4 h2{
+     margin-bottom:10px;
+   }
+   .container5{
+     height:55em;
+   }
+   .pokemon-card{
+     height:25em;
+   }
+  .container8{
+    height:80em;
+  }
+  .hlo .pokemonsub h4,h6{
+   padding:10px;
+  }
+  .container10{
+    height:20em;
+  }
+  .container11{
+    height:40em;
+  }
+  .container11 button{
+    margin-left:10em;
+  }
+  .container12{
+    height:45em;
+  }
+  .producers p{
+   padding:4px;
+  }
+  .logoos{
+ padding-right:0px;
+ padding-left:0px;
+
+margin-right:6em
+
+
+   
+  }
+  }
+  @media(max-width:361px)
+  {
+    *{
+      max-width:100%;
+     
+    }
+   .grid{
+    overflow:auto;
+   
+
+   }
+    .container{
+      height:35em;
+     overflow:auto;
+     margin-top:40px;
+     
+     
+    }
+    .second{
+      overflow:auto;
+    }
+    .container2{
+      padding-left:12px;
+      height:85em;
+     
+   
+    }
+    .container3{
+      padding-left:20px;
+    }
+    .container3 h2{
+      padding-left:0px;
+    }
+    .cont img{
+      margin-top:10px;
+      padding-left:0px;
+    }
+    .container4 h2{
+      padding-left:0px;
+    }
+    .pokemonsub{
+      padding-left:20px;
+    }
+    .pokemonsub h4,h6{
+      padding:8px;
+     
+    }
+   .center p,h2{
+     padding-left:40px;
+   }
+   .container5{
+     padding-left:0px;
+     height:70em;
+   }
+   .font ul li{
+     padding-left:0px;
+
+   }
+  .container7{
+    height:20em;
+  }
+  .container7 h2{
+    padding-left:0px
+
+  }
+  .pokemon-card{
+    height:20em;
+  }
+  .pokemon-card .card{
+    max-width:200px;
+
+  }.pokemon-card{
+    margin-top:20px;
+
+  }
+  .container8 h2{
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .container8{
+    height:115em;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .container10{
+    height:35em;
+  }
+  .container11{
+    height:60em;
+  }
+  .gamesub_sub{
+    padding-right:8px;
+    margin-left:10px;
+  }
+  .container11 button{
+    margin-left:6em;
+  }
+  .container12{
+    height:60em;
+    padding:4px;
+  }
+  .container14{
+    height:15em;
+  }
+  .container15{
+    padding:12px;
+    height:15em;
+  }
+  .logoos{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-right:0px;
+    position:relative;
+    right:3em;
+  }
+  .biggest{
+    overflow:auto;
+  }
+  }
+  @media(max-width:412px)
+  {
+    *{
+      max-width:100%;
+     
+    }
+   .grid{
+    overflow:auto;
+   
+
+   }
+    .container{
+      height:35em;
+     
+     
+     
+    }
+    .second{
+      overflow:auto;
+    }
+    .container2{
+      margin-top:29em;
+      padding-left:25px;
+      height:85em;
+     
+   
+    }
+    .container3{
+      padding-left:20px;
+    }
+    .container3 h2{
+      padding-left:0px;
+    }
+    .cont img{
+      margin-top:10px;
+      padding-left:0px;
+    }
+    .container4 h2{
+      padding-left:0px;
+    }
+    .pokemonsub{
+      padding-left:20px;
+    }
+    .pokemonsub h4,h6{
+      padding:8px;
+     
+    }
+   .center p,h2{
+     padding-left:40px;
+   }
+   .container5{
+     padding-left:0px;
+     height:70em;
+   }
+   .font ul li{
+     padding-left:0px;
+
+   }
+  .container7{
+    height:20em;
+  }
+  .container7 h2{
+    padding-left:0px
+
+  }
+  .pokemon-card{
+    height:20em;
+  }
+  .pokemon-card .card{
+    max-width:200px;
+
+  }.pokemon-card{
+    margin-top:20px;
+
+  }
+  .container8 h2{
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+  }
+  .container8{
+    height:95em;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .container10{
+    height:25em;
+  }
+  .container10 h2{
+    padding-left:0px;
+ 
+  }
+ 
+  .container11{
+    height:50em;
+  }
+  .gamesub_sub{
+    padding-right:8px;
+    margin-left:10px;
+  }
+  .container11 button{
+    margin-left:6em;
+  }
+  .container12{
+    height:55em;
+    padding:4px;
+  }
+  .container14{
+    height:15em;
+  }
+  .container15{
+    padding:12px;
+    height:15em;
+  }
+  .logoos{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-right:0px;
+    position:relative;
+    right:3em;
+  }
+  .biggest{
+    overflow:auto;
+  }
+  }
+  @media(max-width:321px)
+  {
+    *{
+      max-width:100%;
+     
+    }
+   .grid{
+    overflow:auto;
+   
+
+   }
+    .container{
+      height:25em;
+     
+     
+     
+    }
+    .second{
+      overflow:auto;
+    }
+    .container2{
+      margin-top:25em;
+      padding-left:0px;
+      overflow:auto;
+      height:85em;
+     
+   
+    }
+    .container3{
+      padding-left:0px;
+    }
+    .container3 h2{
+      padding-left:0px;
+    }
+    .cont img{
+      margin-top:10px;
+      padding-left:0px;
+    }
+    .container4 h2{
+      padding-left:0px;
+    }
+    .pokemonsub{
+      padding-left:20px;
+    }
+    .pokemonsub h4,h6{
+      padding:8px;
+     
+    }
+   .center p,h2{
+     padding-left:40px;
+   }
+   .container5{
+     padding-left:10px;
+     height:98em;
+
+   }
+   .font ul li{
+     padding-left:0px;
+
+   }
+  .container7{
+    height:20em;
+  }
+  .container7 h2{
+    padding-left:0px
+
+  }
+  .pokemon-card{
+    height:20em;
+  }
+  .pokemon-card .card{
+    max-width:200px;
+
+  }.pokemon-card{
+    margin-top:20px;
+
+  }
+  .container8 h2{
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+  }
+  .container8{
+    height:145em;
+   
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .container10{
+    height:30em;
+  }
+  .container10 h2{
+    padding-left:0px;
+ 
+  }
+ 
+  .container11{
+    height:55em;
+
+  }
+  .container11 h2{
+    padding-left:0px;
+  }
+  .gamesub_sub{
+  
+    padding-right:8px;
+    margin-left:0px;
+  }
+  .container11 button{
+    margin-left:4em;
+  }
+  .container12{
+    height:65em;
+    padding:4px;
+  }
+  .container14{
+    height:15em;
+  }
+  .container15{
+    padding:12px;
+    height:15em;
+  }
+  .logoos{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-right:0px;
+    position:relative;
+    right:3em;
+  }
+  .biggest{
+    overflow:auto;
+  }
+  }
+  @media(max-width:376px)
+  {
+    *{
+      max-width:100%;
+     
+    }
+   .grid{
+    overflow:auto;
+   
+
+   }
+    .container{
+      height:35em;
+      margin-top:40px;
+     
+     
+     
+    }
+    .second{
+      overflow:auto;
+    }
+    .container2{
+      margin-top:30em;
+      padding-left:0px;
+      overflow:auto;
+      height:85em;
+     
+   
+    }
+    .container3{
+      padding-left:0px;
+    }
+    .container3 h2{
+      padding-left:0px;
+    }
+    .cont img{
+      margin-top:10px;
+      padding-left:0px;
+    }
+    .container4 h2{
+      padding-left:0px;
+    }
+    .pokemonsub{
+      padding-left:20px;
+    }
+    .pokemonsub h4,h6{
+      padding:8px;
+     
+    }
+   .center p,h2{
+     padding-left:40px;
+   }
+   .container5{
+     padding-left:10px;
+     height:98em;
+
+   }
+   .font ul li{
+     padding-left:0px;
+
+   }
+  .container7{
+    height:20em;
+  }
+  .container7 h2{
+    padding-left:0px
+
+  }
+  .pokemon-card{
+    height:20em;
+  }
+  .pokemon-card .card{
+    max-width:200px;
+
+  }.pokemon-card{
+    margin-top:20px;
+
+  }
+  .container8 h2{
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+  }
+  .container8{
+    height:145em;
+   
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .container10{
+    height:30em;
+  }
+  .container10 h2{
+    padding-left:0px;
+ 
+  }
+ 
+  .container11{
+    height:55em;
+
+  }
+  .container11 h2{
+    padding-left:0px;
+  }
+  .gamesub_sub{
+  
+    padding-right:8px;
+    margin-left:0px;
+  }
+  .container11 button{
+    margin-left:4em;
+  }
+  .container12{
+    height:65em;
+    padding:4px;
+  }
+  .container14{
+    height:15em;
+  }
+  .container15{
+    padding:12px;
+    height:15em;
+  }
+  .logoos{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-right:0px;
+    position:relative;
+    right:3em;
+  }
+  .biggest{
+    overflow:auto;
+  }
+  }
